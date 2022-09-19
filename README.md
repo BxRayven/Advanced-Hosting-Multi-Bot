@@ -1,1 +1,1 @@
-# Advanced-Hosting-Multi-Bot
+# advanced-host-multi-bot
