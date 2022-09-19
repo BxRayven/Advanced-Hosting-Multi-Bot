@@ -7,6 +7,11 @@
     "start": "node loader.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+    "ffmpeg-static": "^5.1.0"
+    "node-gyp": "^9.1.0"
+  },
   "author": "BxRayven",
   "license": "ISC",
   "repository": {
