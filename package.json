@@ -1,18 +1,29 @@
 {
   "name": "advanced-host-multi-bot",
-  "version": "1.1.0",
-  "description": "",
+  "version": "v1.3.0",
+  "description": "An Open Source discord bot with lots of features",
   "main": "loader.js",
   "scripts": {
+    "start": "node loader.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BxRayven",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-static": "^5.1.0",
+    "node-gyp": "^9.1.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BxRayven/Advanced-Hosting-Multi-Bot.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "open-source",
+    "discord",
+    "discord-bot",
+    "discord.js",
+    "multi-purpose-bot"
+  ],
   "bugs": {
     "url": "https://github.com/BxRayven/Advanced-Hosting-Multi-Bot/issues"
   },
