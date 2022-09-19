@@ -1,0 +1,20 @@
+{
+  "name": "advanced-host-multi-bot",
+  "version": "1.1.0",
+  "description": "",
+  "main": "loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BxRayven/Advanced-Hosting-Multi-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BxRayven/Advanced-Hosting-Multi-Bot/issues"
+  },
+  "homepage": "https://github.com/BxRayven/Advanced-Hosting-Multi-Bot#readme"
+}
