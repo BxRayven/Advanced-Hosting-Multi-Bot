@@ -3,9 +3,9 @@ const child_process = require("child_process");
 // Add your files here
 
 const start_files = [
-    "/home/container/Bot1/example1.js",
-    "/home/container/Bot2/example2.js",	
-    "/home/container/Bot3/example3.js"
+    "Bot1/example1.js",
+    "Bot2/example2.js",	
+    "Bot3/example3.js"
 ];
 
 // Don't edit below this line
@@ -19,7 +19,7 @@ function runfile(name) {
 
         console.log(`[Loader]Installing dependencies in directory ${working_dir}`);
     
-        child_process.spawn("npm", [ "install", "--build-from-resource", "--no-bin-links", "--cache", "/tmp/.npm-global", "--update-notifier", "false", "--prefix", `/home/container/${process.env.SERVER_ID}/${working_dir}` ], {
+        child_process.spawn("npm", [ "install", "--build-from-resource", "--no-bin-links", "--cache", "/tmp/.npm-global", "--update-notifier", "false", "--prefix", `${process.env.SERVER_ID}/${working_dir}` ], {
             cwd: working_dir
         }).on("exit", () => {
             console.log(`[Loader]Opening file ${name}`);
