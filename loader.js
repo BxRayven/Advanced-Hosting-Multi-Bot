@@ -3,9 +3,9 @@ const child_process = require("child_process");
 // Add your files here
 
 const start_files = [
-    "./Bot1/example1.js",
-	"./Bot2/example2.js",	
-    "./Bot3/example3.js"
+    "/home/container/Bot1/example1.js",
+    "/home/container/Bot2/example2.js",	
+    "/home/container/Bot3/example3.js"
 ];
 
 // Don't edit below this line
